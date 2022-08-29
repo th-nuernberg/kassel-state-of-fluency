@@ -24,7 +24,9 @@ The 5597 clips were labeled with six stuttering-related event types: blocks, pro
 
 ## Access
 
-The dataset can be requested from [zenodo](https://zenodo.org/record/6801844), after submitting the signed [EULA](KSoF_EULA.pdf).
+If you are interested in working with the data, please fill out and sign the [EULA](KSoF_EULA.pdf)(must be permanent staff member).
+After you submitted the EULA you can proceed to request download access from [zenodo](https://zenodo.org/record/6801844).
+**Please use the same E-Mail address** or refer to the E-Mail address that was used to submit the EULA.
 
 We also encourage you to explore our paper on "The Influence of Dataset Partitioning on Dysfluency Detection Systems", improving the SEP-28k dataset. 
 The full extension can be found in the [ml stuttering events dataset extended repository](https://github.com/th-nuernberg/ml-stuttering-events-dataset-extended).
