@@ -3,6 +3,7 @@ title: "KSoF: The Kassel State of Fluency Dataset – A Therapy Centered Dataset
 link: "dataset_readme"
 link_description: "Dataset Readme"
 zenodo: "https://zenodo.org/record/6801844"
+zenodo_c: "https://zenodo.org/record/6460102"
 sep28kE: "https://github.com/th-nuernberg/ml-stuttering-events-dataset-extended"
 site.show_links: "true"
 ---
@@ -22,13 +23,17 @@ We hope that research into automatic stuttering detection systems will help to e
 The dataset is a unique resource as, to the best of our knowledge, it is the only dataset containing speech from PWS that underwent therapy and apply the fluency shaping technique in their speech.
 The 5597 clips were labeled with six stuttering-related event types: blocks, prolongations, sound repetitions, word repetitions, interjections, and – specific to therapy – speech modifications. The audio was recorded during therapy sessions at the  [Institut der Kasseler Stottertherapie](https://www.kasseler-stottertherapie.de/) and may be used for research purposes. 
 
+## ACM ComParE Challenge 2022
+A subset of the data was featured in the [ACM Multimedia 2022  Computational Paralinguistics Challenge (ComParE) Challenge](http://www.compare.openaudio.eu/2022-2/).
+The dataset is based on the full release but only contains a subset with a single label per clip. 
+You can find the details in the [challenge paper](https://dl.acm.org/doi/abs/10.1145/3503161.3551591).
 ## Access
 
-If you are interested in working with the data, please fill out and sign the [EULA](KSoF_EULA.pdf)(must be permanent staff member).
-After you submitted the EULA you can proceed to request download access from [zenodo](https://zenodo.org/record/6801844).
+If you are interested in working with the data, please fill out and sign the EULA for the respective release. The [EULA](KSoF_EULA.pdf) full release or the [Challenge Dataset EULA](KSoF_EULA.pdf) (eitherway, must be permanent staff member).
+After you submitted the EULA you can proceed to request download access for the full dataset from [zenodo](https://zenodo.org/record/6801844) or the challenge release from [here](https://zenodo.org/record/6460102). 
 **Please use the same E-Mail address** or refer to the E-Mail address that was used to submit the EULA.
 
-We also encourage you to explore our paper on "The Influence of Dataset Partitioning on Dysfluency Detection Systems", improving the SEP-28k dataset. 
+We also encourage you to explore our paper on **"The Influence of Dataset Partitioning on Dysfluency Detection Systems", improving the SEP-28k dataset.** 
 The full extension can be found in the [ml stuttering events dataset extended repository](https://github.com/th-nuernberg/ml-stuttering-events-dataset-extended).
 
 ## Literature:
@@ -52,5 +57,18 @@ The full extension can be found in the [ml stuttering events dataset extended re
   editor = {Sojka, Petr and Kope{\v c}ek, Ivan and Pala, Karel and Hor{\'a}k, Ale{\v s}},
   year = {2022},
   publisher = {Springer International Publishing}
+  }
+
+@inproceedings{schuller_ACMMultimedia2022_2022,
+  title = {The {{ACM}} Multimedia 2022 Computational Paralinguistics Challenge: {{Vocalisations}}, Stuttering, Activity, \&amp; Mosquitoes},
+  booktitle = {Proceedings of the 30th {{ACM}} International Conference on Multimedia},
+  author = {Schuller, Björn and Batliner, Anton and Amiriparian, Shahin and Bergler, Christian and Gerczuk, Maurice and Holz, Natalie and Larrouy-Maestri, Pauline and Bayerl, Sebastien and Riedhammer, Korbinian and Mallol-Ragolta, Adria and Pateraki, Maria and Coppock, Harry and Kiskin, Ivan and Sinka, Marianne and Roberts, Stephen},
+  date = {2022},
+  series = {MM '22},
+  publisher ={Association for Computing Machinery},
+  doi = {10.1145/3503161.3551591},
 }
+
+
+
 ```
