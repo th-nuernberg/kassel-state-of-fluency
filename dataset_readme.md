@@ -3,6 +3,10 @@ title: KSoF Dataset Readme
 layout: default
 link: "index"
 link_description: "Home"
+zenodo: "https://zenodo.org/record/6801844"
+zenodo_c: "https://zenodo.org/record/7258757"
+sep28kE: "https://github.com/th-nuernberg/ml-stuttering-events-dataset-extended"
+site.show_links: "true"
 ---
 ## Overview
 This dataset contains 5597 labeled segments. 
