@@ -3,7 +3,7 @@ title: "KSoF: The Kassel State of Fluency Dataset – A Therapy Centered Dataset
 link: "dataset_readme"
 link_description: "Dataset Readme"
 zenodo: "https://zenodo.org/record/6801844"
-zenodo_c: "https://zenodo.org/record/6460102"
+zenodo_c: "https://zenodo.org/record/7258757"
 sep28kE: "https://github.com/th-nuernberg/ml-stuttering-events-dataset-extended"
 site.show_links: "true"
 ---
@@ -29,7 +29,7 @@ The dataset is based on the full release but only contains a subset with a singl
 You can find the details in the [challenge paper](https://dl.acm.org/doi/abs/10.1145/3503161.3551591).
 ## Access
 
-If you are interested in working with the data, please fill out and sign the EULA for the respective release. The [EULA](KSoF_EULA.pdf) full release or the [Challenge Dataset EULA](KSoF_EULA.pdf) (eitherway, must be permanent staff member).
+If you are interested in working with the data, please fill out and sign the EULA for the respective release. The [EULA](KSoF_EULA.pdf) full release or the [Challenge Dataset EULA](KSoF_C_EULA_After_Challenge.pdf) (eitherway, must be permanent staff member).
 After you submitted the EULA you can proceed to request download access for the full dataset from [zenodo](https://zenodo.org/record/6801844) or the challenge release from [here](https://zenodo.org/record/6460102). 
 **Please use the same E-Mail address** or refer to the E-Mail address that was used to submit the EULA.
 
@@ -48,6 +48,17 @@ The full extension can be found in the [ml stuttering events dataset extended re
   publisher = {European Language Resources Association},
   address = {Marseille, France},
   keywords = {Computer Science - Computation and Language,Electrical Engineering and Systems Science - Audio and Speech Processing},
+}
+
+@article{bayerl_ClassificationStutteringComParE_2023,
+  title = {Classification of {{Stuttering}} \textendash{} {{The ComParE Challenge}} and {{Beyond}}},
+  author = {Bayerl, Sebastian P. and Gerczuk, Maurice and Batliner, Anton and Bergler, Christian and Amiriparian, Shahin and Schuller, Bj{\"o}rn and N{\"o}th, Elmar and Riedhammer, Korbinian},
+  year = {2023},
+  month = jun,
+  journal = {Computer Speech \& Language},
+  volume = {81},
+  pages = {101519},
+  doi = {10.1016/j.csl.2023.101519},
 }
 
 @incollection{bayerl_InfluenceDatasetPartitioning_2022,
